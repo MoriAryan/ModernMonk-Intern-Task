@@ -1,0 +1,20 @@
+
+\usepackage{float}
+\usepackage{graphicx}
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][htbp]{%
+  \origfigure[H]
+}{%
+  \endorigfigure
+}
+\usepackage{enumitem}
+\setlist{nosep, leftmargin=1.5em}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{12pt}{4pt}
+\titlespacing*{\subsection}{0pt}{8pt}{3pt}
+\titlespacing*{\subsubsection}{0pt}{6pt}{2pt}
+\usepackage{caption}
+\captionsetup{font=small, skip=4pt}
