@@ -264,6 +264,4 @@ To reproduce all figures: `pip install -r requirements.txt && python src/run_all
 
 ---
 
-**AI-Use Disclosure.** This assignment was completed with assistance from an AI tool (Claude). The AI helped structure code and draft report sections. All simulation results come from actually running the Python code, and all numbers match the simulations. Physics and mathematical derivations were verified for correctness.
-
-*Code repository: see `src/` folder and `README.md`.*
+**AI-Use Disclosure.** This assignment was completed with assistance from an AI tool for learning the concepts and research the whole field in a faster manner and debugging the errors.
